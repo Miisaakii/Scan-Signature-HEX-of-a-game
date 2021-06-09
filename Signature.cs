@@ -1,4 +1,7 @@
-﻿using Memory;
+﻿
+//Made by Misakiii
+
+using Memory;
 using System;
 using System.Collections.Generic;
 using System.IO;
