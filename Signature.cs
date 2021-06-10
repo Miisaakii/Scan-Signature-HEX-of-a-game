@@ -1,3 +1,6 @@
+//By Misakiii
+//1.0.0
+
 using Memory;
 using System;
 using System.Collections.Generic;
