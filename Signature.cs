@@ -33,10 +33,6 @@ namespace ErogeCraft
                 MessageBox.Show("Oops, i can't find your process");
                 return;
             }
-            else
-            {
-                
-            }
 
             int pID = m.GetProcIdFromName(PROCESS_NAME);
             IEnumerable<long> AoBScanResults = await m.AoBScan(0x0000000000000000, 0x00007fffffffffff, HEX, false, true);
