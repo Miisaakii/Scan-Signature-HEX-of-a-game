@@ -1,27 +1,24 @@
-﻿
-//Made by Misakiii
-
 using Memory;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace GetAddressMCSignature
+namespace ErogeCraft
 {
     public class Signature
     {
-        //OFFSETS
+        Mem m = new Mem(); //Memory.dll
+        string PROCESS_NAME = "Minecraft.Windows"; //Name of your game
+
         public String[] OFFSETS = new String[]
         {
             "FAST_DOWN",
             "SUPER_JUMP"
         };
 
-
-        Mem m = new Mem(); //Memory.dll
-        string PROCESS_NAME = "Minecraft.Windows"; //Name of your game
 
         #region "Functions scan"
 
@@ -30,34 +27,32 @@ namespace GetAddressMCSignature
             //Search Minecraft process
             if (!m.OpenProcess(PROCESS_NAME))
             {
-                try
-                {
-
-                }
-                catch (Exception E)
-                {
-                    MessageBox.Show(E.ToString());
-                }
+                MessageBox.Show("Oops, i can't find your process");
+                return;
+            }
+            else
+            {
+                
             }
 
             int pID = m.GetProcIdFromName(PROCESS_NAME);
             IEnumerable<long> AoBScanResults = await m.AoBScan(0x0000000000000000, 0x00007fffffffffff, HEX, false, true);
             long SingleAoBScanResult = AoBScanResults.FirstOrDefault();
 
-            MessageBox.Show("Adress is: " + SingleAoBScanResult);
+            MessageBox.Show("Adress find:" + SingleAoBScanResult.ToString("X"));
 
-            GetOffsets(NAME, SingleAoBScanResult);
+            GetOffsets(NAME, SingleAoBScanResult.ToString("X"));
         }
 
-        public void GetOffsets(string NAME, long VALUE)
+        public void GetOffsets(string NAME, string VALUE)
         {
             if (OFFSETS[0] == NAME)
             {
-                OFFSETS[0] = VALUE.ToString();
+                OFFSETS[0] = VALUE;
             }
             else if (OFFSETS[1] == NAME)
             {
-                OFFSETS[1] = VALUE.ToString();
+                OFFSETS[1] = VALUE;
             }
         }
 
