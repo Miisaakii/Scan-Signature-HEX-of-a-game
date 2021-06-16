@@ -1,0 +1,17 @@
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\bin\Debug\ErogeCraft.exe.config
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\bin\Debug\ErogeCraft.exe
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\bin\Debug\ErogeCraft.pdb
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\bin\Debug\Memory.dll
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\bin\Debug\Memory.xml
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\obj\Debug\ErogeCraft.csproj.AssemblyReference.cache
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\obj\Debug\ErogeCraft.Form1.resources
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\obj\Debug\ErogeCraft.Properties.Resources.resources
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\obj\Debug\ErogeCraft.csproj.GenerateResource.cache
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\obj\Debug\ErogeCraft.csproj.CoreCompileInputs.cache
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\obj\Debug\ErogeCraft.csproj.CopyComplete
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\obj\Debug\ErogeCraft.exe
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\obj\Debug\ErogeCraft.pdb
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\bin\Debug\Siticone.UI.dll
+C:\Users\rstei\source\repos\ErogeCraft\ErogeCraft\bin\Debug\Guna.UI2.dll
