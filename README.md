@@ -21,4 +21,4 @@ for exemple, i "FAST_DOWN" is the name of the offset i want, you can change the 
 
 well after do this it's will scan the HEX and get the address then place the address in the string OFFSET with the name you have added and it's done !
 
-Discord: Misaki#2121
+Discord: https://discord.gg/X6qdWPdKTn
